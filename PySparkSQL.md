@@ -1,0 +1,3 @@
+# PySpark SQL:-
+1. First, you should create a temporary table or view on DataFrame to use SQL queries. Once the table is created, you can be accessed throughout the SparkSession using sql().
+2. These tables and views are scoped to the SparkSession that created them. Once the SparkSession is terminated, either by closing the Spark application or ending the Spark session explicitly, the temporary views are removed from memory.
